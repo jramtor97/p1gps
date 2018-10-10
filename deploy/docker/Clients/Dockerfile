@@ -1,6 +1,6 @@
 FROM tomcat:7-jre8
 
-MAINTAINER juliens@microsoft.com
+MAINTAINER jaime.ramos1@alu.uclm.es
 
 COPY drop/* /usr/local/tomcat/webapps/
 
