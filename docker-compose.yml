@@ -4,7 +4,7 @@ services:
 
  mongo: 
 
-  image: usuarioDocker/p1gps:db
+  image: jramtor97/p1gps:db
 
   deploy:
 
@@ -34,7 +34,7 @@ services:
 
  order:
 
-  image: usuarioDocker/p1gps:order
+  image: jramtor97/p1gps:order
 
   depends_on:
 
@@ -59,9 +59,9 @@ services:
   ports:
    - "8080:8080"
 
-  web:
+ web:
   
-   image: usuarioDocker/p1gps:web
+   image: jramtor97/p1gps:web
 
    deploy:
 
@@ -84,6 +84,6 @@ services:
     - "80:8080"
 
 
- volumes:
+volumes:
 
-   db-data:
+ db-data:

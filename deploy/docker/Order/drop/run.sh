@@ -7,6 +7,4 @@ do
  sleep 1
 done
 echo "$(date) - it seems mongo server is connected successfully"
-java -jar usr/local/app/ordering-service-0.1.0.jar \\
-
- 	-spring.config.location=application.properties # o *.jar
+java -jar usr/local/app/ordering-service-0.1.0.jar -spring.config.location=application.properties # o *.jar
